@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6399e9-73b2-468c-bb39-802b16796a14" name="Default Changelist" comment="test" />
+    <list default="true" id="6e6399e9-73b2-468c-bb39-802b16796a14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/springCloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/mengxuegu/springcloud/ProductConsumer_80.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/mengxuegu/springcloud/ProductConsumer_80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/mengxuegu/springcloud/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-04-consumer-product-80/src/main/java/com/mengxuegu/springcloud/config/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-05-eureka-6001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-05-eureka-6001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-05-eureka-6002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-05-eureka-6002/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +43,11 @@
         <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1dARkHDBUzquYunIG41EC0Uvgp2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,9 +61,9 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -59,7 +73,7 @@
       <recent name="D:\workspace\javaProject\springCloud\microservice-cloud-05-eureka-6002\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductConsumer_80">
+  <component name="RunManager" selected="Application.EurekaServer_6001">
     <configuration name="EurekaServer_6001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mengxuegu.springcloud.EurekaServer_6001" />
       <module name="microservice-cloud-05-eureka-6001" />
@@ -114,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductConsumer_80" />
         <item itemvalue="Application.ProductProvider_8001" />
         <item itemvalue="Application.EurekaServer_6002" />
         <item itemvalue="Application.EurekaServer_6001" />
+        <item itemvalue="Application.ProductConsumer_80" />
       </list>
     </recent_temporary>
   </component>
@@ -139,17 +153,54 @@
       <option name="project" value="LOCAL" />
       <updated>1592186099374</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1592205587125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592205587125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -166,6 +217,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="565" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1592185675764" />
+    <state x="275" y="4" key="#Plugins" timestamp="1592271103267">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1592271103267" />
+    <state x="352" y="0" width="675" height="728" key="#ProductProvider_8001" timestamp="1592271282541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="352" y="0" width="675" height="728" key="#ProductProvider_8001/0.0.1366.728@0.0.1366.728" timestamp="1592271282541" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1591866302953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -174,38 +233,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591931574909" />
-    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1592205297325">
+    <state x="292" y="230" width="782" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592212354194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592205297325" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1592041760595">
+    <state x="292" y="230" width="782" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1592212354194" />
+    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2" timestamp="1592205579261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592041760595" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1592041760594">
+    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592205579261" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1592207075834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592041760594" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1592041760594">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1592207075834" />
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1592271447968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592041760594" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1592041760594">
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592271447968" />
+    <state width="1322" height="233" key="GridCell.Tab.0.bottom" timestamp="1592212475444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592041760594" />
+    <state width="1322" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592212475444" />
+    <state width="1322" height="233" key="GridCell.Tab.0.center" timestamp="1592212475443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592212475443" />
+    <state width="1322" height="233" key="GridCell.Tab.0.left" timestamp="1592212475443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592212475443" />
+    <state width="1322" height="233" key="GridCell.Tab.0.right" timestamp="1592212475443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592212475443" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1591949326348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1591949326348" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1592204782712">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1592271533849">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592204782712" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1592186127011">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592271533849" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1592205685235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592186127011" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592205685235" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1592187855034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
