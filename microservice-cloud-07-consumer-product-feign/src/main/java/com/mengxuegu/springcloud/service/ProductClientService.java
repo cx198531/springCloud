@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 //指定调用的服务 MICROSERVICE-PRODUCT
-@FeignClient(value = "MICROSERVICE-PRODUCT")
+@FeignClient(value = "MICROSERVICE-PRODUCT", fallback = ProductClientServiceFallBack.class)
 public interface ProductClientService {
 
     @RequestMapping(value = "/product/add", method = RequestMethod.POST)
