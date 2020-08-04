@@ -10,46 +10,54 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6399e9-73b2-468c-bb39-802b16796a14" name="Default Changelist" comment="第八章 Zuul 路由网关">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_11_0_201803080745_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_4_11_0_201803080745_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/microservice-cloud-11-config-server-5001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/src/main/java/com/mengxuegu/springcloud/ConfigServer_5001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-12-config-client-8080/microservice-cloud-12-config-client-8080.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-12-config-client-8080/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-12-config-client-8080/src/main/java/com/mengxuegu/springcloud/ConfigClient_8080.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-12-config-client-8080/src/main/java/com/mengxuegu/springcloud/controller/ConfigClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-12-config-client-8080/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-12-config-client-8080/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/microservice-cloud-13-eureka-config-6001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/src/main/java/com/mengxuegu/springcloud/EurekaServer_Config_6001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/microservice-cloud-14-product-config-8001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/ProductProvider_Config_8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/resources/mybatis/mapper/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6e6399e9-73b2-468c-bb39-802b16796a14" name="Default Changelist" comment="Spring Cloud Config 分布式配置中心">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_31_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_2_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/config/DruidConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-cloud-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/microservice-cloud-14-product-config-8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/microservice-cloud-14-product-config-8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/java/com/mengxuegu/springcloud/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/target/classes/com/mengxuegu/springcloud/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/target/classes/com/mengxuegu/springcloud/controller/ProductController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +73,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -98,7 +111,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25172412" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -113,7 +126,7 @@
       <recent name="D:\workspace\javaProject\springCloud\microservice-cloud-08-provider-product-hystrix-8001\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductProvider_Config_8001">
+  <component name="RunManager" selected="Application.ConfigServer_5001">
     <configuration name="ConfigClient_8080" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mengxuegu.springcloud.ConfigClient_8080" />
       <module name="microservice-cloud-12-config-client-8080" />
@@ -181,9 +194,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConfigServer_5001" />
         <item itemvalue="Application.ProductProvider_Config_8001" />
         <item itemvalue="Application.EurekaServer_Config_6001" />
-        <item itemvalue="Application.ConfigServer_5001" />
         <item itemvalue="Application.ConfigClient_8080" />
         <item itemvalue="Application.ZuulServer_7001" />
       </list>
@@ -249,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592452709308</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spring Cloud Config 分布式配置中心">
+      <created>1592547802147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592547802148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Spring Cloud Config 分布式配置中心">
+      <created>1592549176714</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592549176714</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,17 +328,18 @@
     <MESSAGE value="test" />
     <MESSAGE value="Feign" />
     <MESSAGE value="第八章 Zuul 路由网关" />
-    <option name="LAST_COMMIT_MESSAGE" value="第八章 Zuul 路由网关" />
+    <MESSAGE value="Spring Cloud Config 分布式配置中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Config 分布式配置中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="262" key="#Custom_Plugin_Repositories" timestamp="1592383432297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="582" y="262" key="#Custom_Plugin_Repositories/0.0.1366.728@0.0.1366.728" timestamp="1592383432297" />
-    <state x="565" y="225" key="#Notifications" timestamp="1592185675764">
+    <state x="565" y="225" key="#Notifications" timestamp="1596527837131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="565" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1592185675764" />
+    <state x="565" y="225" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1596527837131" />
     <state x="275" y="4" key="#Plugins" timestamp="1592271103267">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -332,10 +360,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="292" y="230" width="782" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1592212354194" />
-    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2" timestamp="1592457086928">
+    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2" timestamp="1596529113831">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592457086928" />
+    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596529113831" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1592207075834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -344,34 +372,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592271447968" />
-    <state width="1322" height="226" key="GridCell.Tab.0.bottom" timestamp="1592546784287">
+    <state width="1322" height="178" key="GridCell.Tab.0.bottom" timestamp="1593769351441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="226" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592546784287" />
-    <state width="1322" height="226" key="GridCell.Tab.0.center" timestamp="1592546784287">
+    <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593769351441" />
+    <state width="1322" height="178" key="GridCell.Tab.0.center" timestamp="1593769351441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="226" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592546784287" />
-    <state width="1322" height="226" key="GridCell.Tab.0.left" timestamp="1592546784287">
+    <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593769351441" />
+    <state width="1322" height="178" key="GridCell.Tab.0.left" timestamp="1593769351441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="226" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592546784287" />
-    <state width="1322" height="226" key="GridCell.Tab.0.right" timestamp="1592546784287">
+    <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593769351441" />
+    <state width="1322" height="178" key="GridCell.Tab.0.right" timestamp="1593769351441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="226" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592546784287" />
+    <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593769351441" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1591949326348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1591949326348" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1592383925580">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1593673694486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592383925580" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1592452655894">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593673694486" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596527733269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592452655894" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596527733269" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1592187855034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
