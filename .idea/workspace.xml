@@ -6,8 +6,23 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dockerSpringCloud" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e6399e9-73b2-468c-bb39-802b16796a14" name="Default Changelist" comment="Spring Cloud Config 分布式配置中心">
@@ -50,7 +65,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-11-config-server-5001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-13-eureka-config-6001/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/microservice-cloud-14-product-config-8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/microservice-cloud-14-product-config-8001.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-14-product-config-8001/pom.xml" afterDir="false" />
@@ -276,7 +290,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592549176714</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Spring Cloud Config 分布式配置中心">
+      <created>1596529164061</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596529164061</updated>
+    </task>
+    <task id="LOCAL-00011" summary="docker">
+      <created>1596531092070</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596531092070</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +337,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dockerSpringCloud" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -329,7 +369,8 @@
     <MESSAGE value="Feign" />
     <MESSAGE value="第八章 Zuul 路由网关" />
     <MESSAGE value="Spring Cloud Config 分布式配置中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Config 分布式配置中心" />
+    <MESSAGE value="docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="262" key="#Custom_Plugin_Repositories" timestamp="1592383432297">
@@ -360,10 +401,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="292" y="230" width="782" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1592212354194" />
-    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2" timestamp="1596529113831">
+    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2" timestamp="1596531084978">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596529113831" />
+    <state x="91" y="0" width="1242" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596531084978" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1592207075834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
